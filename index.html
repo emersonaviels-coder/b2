@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio | Brota</title>
+    <link rel="icon" href="logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Fraunces:wght@600;700&family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/tema.css">
+    <link rel="stylesheet" href="css/extras.css">
+    <script>
+        (function () {
+            var t = null; try { t = localStorage.getItem("tema") } catch (e) { }
+            if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+            document.documentElement.setAttribute("data-tema", t); document.documentElement.setAttribute("data-bs-theme", t)
+        })();
+    </script>
+</head>
+
+<body>
+    <header><a class="marca" href="index.html"><img src="logo.svg" alt="" width="40" height="40"><span>Brota</span></a>
+        <nav><a href="index.html" aria-current=page>Inicio</a><a href="javascript.html">JavaScript</a><a
+                href="jquery.html">jQuery</a><a href="json.html">JSON</a><a href="hosting.html">Hosting y dominios</a><a href="herramientas.html">Herramientas Google</a><a href="cuestionario.html">Cuestionario Web</a></nav>
+        <button id="btnTema" type="button" class="tema-btn" aria-label="Cambiar a modo oscuro"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg></button>
+    </header>
+    <main>
+        <div id="carruselBrota" class="carousel slide carousel-fade carousel-brota" data-bs-ride="carousel" data-bs-interval="5000" aria-label="Galería de Brota">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carruselBrota" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Diapositiva 1"></button>
+                <button type="button" data-bs-target="#carruselBrota" data-bs-slide-to="1" aria-label="Diapositiva 2"></button>
+                <button type="button" data-bs-target="#carruselBrota" data-bs-slide-to="2" aria-label="Diapositiva 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/foto-1.jpg" onerror="this.onerror=null;this.src='img/slide-1.svg'" alt="Maceta Brota con la luz verde encendida: la tierra está húmeda">
+                    <div class="carousel-caption">
+                        <h1>Una maceta que te avisa cuándo regar.</h1>
+                        <p>Sensor de humedad y depósito de agua que riega sola tu planta.</p>
+                        <a class="btn" href="cuestionario.html">Haz el cuestionario</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/foto-2.jpg" onerror="this.onerror=null;this.src='img/slide-2.svg'" alt="Maceta Brota con luz amarilla y una gota de agua">
+                    <div class="carousel-caption">
+                        <h2>Verde: todo bien. Amarillo: toca agua.</h2>
+                        <p>Dos luces y cero apps que instalar. Funciona con una pila.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/foto-3.jpg" onerror="this.onerror=null;this.src='img/slide-3.svg'" alt="Repisa de un apartamento con tres macetas Brota">
+                    <div class="carousel-caption">
+                        <h2>Pensada para apartamentos.</h2>
+                        <p>Menos plantas muertas y menos agua desperdiciada.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselBrota" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselBrota" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Siguiente</span></button>
+        </div>
+        <section>
+            <h2>El producto</h2>
+            <img class="ilustracion" src="img/foto-producto.jpg" onerror="this.onerror=null;this.src='img/producto.svg'" alt="Corte de la maceta: planta, tierra con sensor, mecha de algodón y depósito de 1 litro" width="800" height="520">
+            <p><b>Nombre comercial:</b> Brota, maceta autorregable con sensor.</p>
+            <p><b>Descripción:</b> Maceta de 20 cm con depósito de 1 litro, mecha de algodón y un sensor que enciende
+                una luz verde cuando la tierra está húmeda y una amarilla cuando necesita agua. Funciona con una pila y
+                no necesita internet.</p>
+            <p><b>Público objetivo:</b> Jóvenes y adultos que viven en apartamentos, tienen poco tiempo y quieren
+                plantas sanas sin olvidarse de regarlas.</p>
+            <p><b>Propuesta de valor:</b> Menos plantas muertas, menos agua desperdiciada y cero apps que instalar.</p>
+        </section>
+        <section>
+            <h2>Identidad gráfica</h2>
+            <p>El logotipo muestra una hoja que brota de un círculo, como un brote saliendo de la maceta.</p>
+            <div class="paleta">
+                <div style="background:#2F5D50"><b>#2F5D50</b>Verde bosque</div>
+                <div style="background:#F2B84B;color:#1F2A30"><b>#F2B84B</b>Amarillo sol</div>
+                <div style="background:#1F2A30"><b>#1F2A30</b>Carbón</div>
+            </div>
+            <ul>
+                <li><b>Verde bosque:</b> evoca naturaleza, crecimiento y calma; comunica que el producto cuida la vida.
+                </li>
+                <li><b>Amarillo sol:</b> transmite energía y optimismo; es el color de alerta amable del sensor.</li>
+                <li><b>Carbón:</b> aporta seriedad y legibilidad; da confianza a la marca.</li>
+            </ul>
+        </section>
+
+  
+        <section>
+            <h2>Contáctanos</h2>
+            <form id="formularioContacto">
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="campo">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+
+
+    </main>
+    <footer>Proyecto escolar: Brota. Hecho con HTML, CSS y JavaScript.</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/tema.js"></script>
+
+   
+    <script>
+     
+        const WEBHOOK_URL = "https://discord.com/api/webhooks/1557521551731986504/-9M94SpuiltxjeU1j45hylyTxqAnY1PJCQOY81KEExXXcFr1ctEgP0wsMX7kiPPOhN4Z";
+
+        document.getElementById('formularioContacto').addEventListener('submit', async function (e) {
+            e.preventDefault();
+
+            const nombre = document.getElementById('nombre').value;
+            const email = document.getElementById('email').value;
+            const mensaje = document.getElementById('mensaje').value;
+
+            const datos = {
+                embeds: [{
+                    title: " Nuevo mensaje desde Brota",
+                    color: 3447003,
+                    fields: [
+                        { name: "Nombre", value: nombre, inline: true },
+                        { name: "Email", value: email, inline: true },
+                        { name: "Mensaje", value: mensaje }
+                    ],
+                    timestamp: new Date().toISOString()
+                }]
+            };
+
+            try {
+                const respuesta = await fetch(WEBHOOK_URL, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(datos)
+                });
+
+                if (respuesta.ok) {
+                    alert(" Mensaje enviado correctamente");
+                    this.reset();
+                } else {
+                    alert(" Error al enviar");
+                }
+            } catch (error) {
+                alert(" No se pudo enviar: " + error.message);
+            }
+        });
+    </script>
+    
+</body>
+
+</html>

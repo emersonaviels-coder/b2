@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Maceta Brota con luz amarilla y gota de agua">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1F2A30"/><stop offset="1" stop-color="#4a3d1c"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#F2B84B" stop-opacity=".95"/><stop offset="1" stop-color="#F2B84B" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="500" fill="url(#g)"/>
+<circle cx="930" cy="260" r="210" fill="#2F5D50" opacity=".25"/>
+<g transform="translate(930 0)">
+<path d="M0 320 C-40 290 -95 300 -125 340 C-85 350 -30 345 0 320Z" fill="#8a9a63"/>
+<path d="M0 320 C40 285 95 295 125 335 C85 348 30 345 0 320Z" fill="#7a8a55"/>
+<path d="M0 320 C-10 270 -5 230 -20 200 C15 215 22 280 0 320Z" fill="#9aaa70"/>
+<path d="M-90 330 L90 330 L70 455 L-70 455Z" fill="#C8734A"/>
+<rect x="-100" y="308" width="200" height="28" rx="9" fill="#D98B5F"/>
+<circle cx="0" cy="393" r="34" fill="url(#glow)"/>
+<circle cx="0" cy="393" r="10" fill="#F2B84B"/>
+<path d="M-175 140 C-155 175 -140 195 -140 215 A35 35 0 0 1 -210 215 C-210 195 -195 175 -175 140Z" fill="#6EC1E4"/>
+</g>
+</svg>

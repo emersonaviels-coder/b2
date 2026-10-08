@@ -1,0 +1,82 @@
+/* Brota - estilos principales */
+:root{--verde:#2F5D50;--amarillo:#F2B84B;--carbon:#1F2A30;--suave:#EAF2EE;--borde:#cfe0d9}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.65;color:var(--carbon);background:#fff;
+  min-height:100vh;display:flex;flex-direction:column}
+h1,h2,h3{line-height:1.2;color:var(--verde);margin:1.6rem 0 .6rem}
+h1{font-size:clamp(1.8rem,4vw,2.6rem);margin-top:.5rem}
+h2{font-size:1.5rem}
+a{color:var(--verde)}
+img{max-width:100%;height:auto}
+
+/* Cabecera */
+header{background:var(--verde);color:#fff;display:flex;align-items:center;flex-wrap:wrap;gap:.6rem 1.25rem;padding:.7rem 1.5rem;
+  position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.18)}
+header a{color:#fff;text-decoration:none}
+.marca{display:flex;align-items:center;gap:.6rem;font-size:1.5rem;font-weight:800}
+nav{display:flex;flex-wrap:wrap;gap:.3rem 1.1rem;margin-left:auto}
+nav a{padding:.25rem 0;border-bottom:3px solid transparent;transition:border-color .2s}
+nav a:hover,nav a[aria-current=page]{border-bottom-color:var(--amarillo)}
+
+/* Contenido */
+main{width:100%;max-width:900px;margin:0 auto;padding:1.5rem 1.25rem 3rem;flex:1}
+section{margin:2rem 0}
+ul{padding-left:1.3rem}
+li{margin:.35rem 0}
+code{background:var(--suave);padding:.1rem .4rem;border-radius:5px;font-family:Consolas,Menlo,monospace;font-size:.92em}
+pre{background:var(--carbon);color:#e8f1ed;padding:1rem 1.2rem;border-radius:12px;overflow-x:auto;line-height:1.5}
+pre code{background:transparent;padding:0;color:inherit}
+
+/* Botones */
+.btn{display:inline-block;background:var(--amarillo);color:var(--carbon);border:0;border-radius:999px;padding:.6rem 1.4rem;
+  font:inherit;font-weight:700;text-decoration:none;cursor:pointer;transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 6px 14px rgba(0,0,0,.2)}
+.btn:disabled{opacity:.6;cursor:wait}
+:focus-visible{outline:3px solid var(--amarillo);outline-offset:3px}
+
+/* Inicio */
+.hero{background:var(--suave);border-radius:20px;padding:2.5rem 1.75rem;margin-top:1rem}
+.hero p{font-size:1.15rem;max-width:60ch}
+.paleta{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;margin:1rem 0}
+.paleta div{color:#fff;border-radius:14px;padding:1.4rem 1rem;display:flex;flex-direction:column;gap:.25rem}
+
+/* Formulario */
+form{display:grid;gap:1rem;max-width:560px}
+.campo{display:grid;gap:.3rem}
+label{font-weight:700}
+input,textarea{font:inherit;padding:.65rem .8rem;border:1.5px solid var(--borde);border-radius:10px;background:#fff;color:var(--carbon);width:100%}
+input:focus,textarea:focus{border-color:var(--verde);outline:none;box-shadow:0 0 0 3px rgba(47,93,80,.25)}
+
+/* Tablas */
+table{width:100%;border-collapse:collapse;margin:1rem 0;display:block;overflow-x:auto}
+th,td{border:1px solid var(--borde);padding:.6rem .8rem;text-align:left}
+th{background:var(--verde);color:#fff}
+
+/* Comparaciones y recursos */
+.dos{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+.dos>div{background:var(--suave);border-radius:14px;padding:.5rem 1rem 1rem;min-width:0}
+.caja{display:none;background:var(--suave);border-left:6px solid var(--verde);border-radius:10px;padding:1rem;margin-top:1rem}
+.res{background:var(--suave);border-radius:14px;padding:.5rem 1.25rem 1rem;margin-top:2.5rem}
+.res h2{margin-top:.8rem}
+
+/* Flujo (hosting) */
+.flujo{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem;margin:1.2rem 0}
+.flujo span{background:var(--suave);border:1.5px solid var(--verde);border-radius:999px;padding:.45rem 1rem;font-weight:600}
+.flujo i{font-style:normal;font-size:1.4rem;color:var(--verde)}
+
+/* Cuestionario */
+.pregunta{border:1.5px solid var(--borde);border-radius:14px;padding:1rem 1.25rem;margin:1rem 0}
+.pregunta h3{margin:.2rem 0 .6rem;font-size:1.1rem}
+.pregunta label{display:flex;gap:.6rem;align-items:center;font-weight:400;padding:.3rem .5rem;border-radius:8px;cursor:pointer}
+.pregunta label:hover{background:var(--suave)}
+.pregunta input{width:auto}
+.pregunta.ok{border-color:#2e9e5b;background:rgba(46,158,91,.08)}
+.pregunta.mal{border-color:#d64545;background:rgba(214,69,69,.08)}
+#nota{font-weight:800;font-size:1.2rem;margin-top:1rem}
+
+/* Pie */
+footer{background:var(--carbon);color:#c6d4ce;text-align:center;padding:1.2rem}
+
+@media (max-width:640px){nav{margin-left:0}header{padding:.7rem 1rem}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}

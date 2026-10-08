@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Maceta Brota con luz verde">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2F5D50"/><stop offset="1" stop-color="#1F2A30"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#5BE08A" stop-opacity=".9"/><stop offset="1" stop-color="#5BE08A" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="500" fill="url(#g)"/>
+<circle cx="930" cy="260" r="210" fill="#F2B84B" opacity=".10"/>
+<circle cx="1080" cy="90" r="60" fill="#F2B84B" opacity=".18"/>
+<g transform="translate(930 0)">
+<path d="M0 320 C-30 250 -90 225 -130 235 C-115 285 -60 320 0 320Z" fill="#4E9A7F"/>
+<path d="M0 320 C30 250 90 225 130 235 C115 285 60 320 0 320Z" fill="#3E8268"/>
+<path d="M0 320 C-25 240 -5 175 0 140 C25 180 30 250 0 320Z" fill="#6BB898"/>
+<path d="M-90 330 L90 330 L70 455 L-70 455Z" fill="#C8734A"/>
+<rect x="-100" y="308" width="200" height="28" rx="9" fill="#D98B5F"/>
+<circle cx="0" cy="393" r="34" fill="url(#glow)"/>
+<circle cx="0" cy="393" r="10" fill="#5BE08A"/>
+</g>
+</svg>

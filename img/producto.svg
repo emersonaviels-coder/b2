@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Corte de la maceta Brota: planta, tierra, mecha de algodón y depósito de agua">
+<rect width="800" height="520" rx="24" fill="#EAF2EE"/>
+<path d="M400 150 C370 90 310 70 270 80 C285 130 340 155 400 150Z" fill="#4E9A7F"/>
+<path d="M400 150 C430 85 490 65 530 75 C515 130 460 155 400 150Z" fill="#3E8268"/>
+<path d="M400 150 C385 90 400 50 400 30 C425 65 430 115 400 150Z" fill="#6BB898"/>
+<path d="M250 170 H550 L520 330 H280Z" fill="#8a5a3c"/>
+<path d="M250 170 H550" stroke="#D98B5F" stroke-width="20" stroke-linecap="round"/>
+<path d="M280 330 H520 L500 460 H300Z" fill="#6EC1E4"/>
+<path d="M400 250 V440" stroke="#fff" stroke-width="14" stroke-linecap="round"/>
+<circle cx="560" cy="250" r="10" fill="#5BE08A"/><circle cx="590" cy="250" r="10" fill="#F2B84B"/>
+<g font-family="sans-serif" font-size="20" fill="#1F2A30"><text x="40" y="120">Planta</text><text x="40" y="250">Tierra con sensor</text><text x="40" y="390">Depósito 1 L</text><text x="610" y="390">Mecha de algodón</text></g>
+<g stroke="#1F2A30" stroke-width="2" fill="none"><path d="M120 125 L330 125"/><path d="M200 255 L300 255"/><path d="M180 395 L300 395"/><path d="M605 385 L420 385"/></g>
+</svg>

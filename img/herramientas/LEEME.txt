@@ -1,0 +1,4 @@
+LOGOS DE LAS HERRAMIENTAS (opcional). Nombre exacto, PNG cuadrado:
+gemini.png  notebooklm.png  docs.png  sheets.png  slides.png  forms.png  drive.png  meet.png
+calendar.png  keep.png  sites.png  vids.png  looker-studio.png  fonts.png  academico.png
+Si falta uno, se muestra un icono simple en su lugar.

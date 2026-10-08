@@ -1,0 +1,9 @@
+FOTOS DE BROTA (pon aquí tus imágenes con estos nombres exactos)
+  foto-1.jpg         -> primera diapositiva del carousel (maceta con planta)
+  foto-2.jpg         -> segunda diapositiva (riego / gota de agua)
+  foto-3.jpg         -> tercera diapositiva (plantas en un apartamento)
+  foto-producto.jpg  -> imagen de la sección "El producto"
+Si una foto no está, la página muestra una ilustración de respaldo (los .svg).
+Tamaño recomendado: 1600 x 700 px (horizontales). Pesen menos de 400 KB cada una.
+Dónde buscar fotos gratis: unsplash.com, pexels.com, pixabay.com
+Si usas una imagen de Google Imágenes, anota la fuente en "Recursos y bibliografía".

@@ -1,0 +1,20 @@
+/* Modo claro / oscuro de Brota. Se carga DESPUÉS de estilos.css */
+.tema-btn{border:2px solid currentColor;background:transparent;color:inherit;width:42px;height:42px;border-radius:50%;
+  font-size:1.1rem;line-height:1;cursor:pointer;margin-left:auto;flex:none;transition:transform .3s}
+.tema-btn:hover{transform:rotate(20deg)}
+.tema-btn:focus-visible{outline:3px solid #F2B84B;outline-offset:3px}
+body,header,footer,table,td,th,pre,code,input,textarea,.caja,.res{transition:background-color .3s,color .3s,border-color .3s}
+
+[data-tema="dark"]{color-scheme:dark}
+[data-tema="dark"] body{background:#121b1a;color:#e6eeea}
+[data-tema="dark"] header{background:#1d3a32;color:#fff}
+[data-tema="dark"] header a{color:#fff}
+[data-tema="dark"] footer{background:#0b1211;color:#9db5ac}
+[data-tema="dark"] main a{color:#8fd3bb}
+[data-tema="dark"] main a.btn{color:#1F2A30}
+[data-tema="dark"] h1,[data-tema="dark"] h2,[data-tema="dark"] h3{color:#f1f6f3}
+[data-tema="dark"] table,[data-tema="dark"] th,[data-tema="dark"] td{background:#1b2a27;color:#e6eeea;border-color:#2d4540}
+[data-tema="dark"] pre,[data-tema="dark"] code{background:#0b1211;color:#d7efe6;border-color:#2d4540}
+[data-tema="dark"] input,[data-tema="dark"] textarea,[data-tema="dark"] select{background:#0b1211;color:#e6eeea;border:1px solid #2d4540}
+[data-tema="dark"] .hero,[data-tema="dark"] .caja,[data-tema="dark"] .res,[data-tema="dark"] .dos>div,[data-tema="dark"] .flujo span{background:#1b2a27;color:#e6eeea;border-color:#2d4540}
+[data-tema="dark"] #quiz,[data-tema="dark"] #quiz *{color:#e6eeea;border-color:#2d4540}
